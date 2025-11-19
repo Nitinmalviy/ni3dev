@@ -14,10 +14,10 @@ export default function Header() {
       <div className="container mx-auto max-w-7xl flex h-16 items-center justify-between px-4">
         <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
           <Link href="/" className="flex items-center">
-            <Image 
-              src="/images/logo.png" 
-              alt="NI3DEV" 
-              width={48} 
+            <Image
+              src="/images/logo.png"
+              alt="NI3DEV"
+              width={48}
               height={48}
               className="hover:scale-110 transition-transform duration-300 rounded-full"
             />
@@ -25,10 +25,7 @@ export default function Header() {
         </motion.div>
 
         <nav className="hidden md:flex gap-8">
-          {[
-            { href: '#about', label: 'About' },
-            { href: '#work', label: 'Work' },
-            { href: '#services', label: 'Services' },
+          {/* {[
             { href: '#contact', label: 'Contact' },
           ].map((item, idx) => (
             <motion.div key={idx} initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: idx * 0.1 }}>
@@ -37,7 +34,7 @@ export default function Header() {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-secondary group-hover:w-full transition-all duration-300" />
               </Link>
             </motion.div>
-          ))}
+          ))} */}
           <AnimatedThemeToggler />
         </nav>
 
