@@ -60,9 +60,9 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Get In Touch</h4>
             <p className="text-muted-foreground mb-3 text-sm">Available for freelancing and exciting projects</p>
             <div className="space-y-2 text-sm">
-              <a href="mailto:nitin@example.com" className="text-primary hover:underline flex items-center gap-2">
+              <a href="mailto:nitinmalviya172@gmail.com" className="text-primary hover:underline flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                nitin@example.com
+                nitinmalviya172@gmail.com
               </a>
               <p className="text-muted-foreground">Response time: 24 hours</p>
             </div>

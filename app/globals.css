@@ -161,3 +161,8 @@
 .dark .bg-gradient-card {
   background: linear-gradient(135deg, #1a1f3a 0%, #16213e 100%);
 }
+
+::view-transition-old(root), ::view-transition-new(root) {
+    animation: none;
+    mix-blend-mode: normal;
+}

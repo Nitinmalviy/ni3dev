@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { AnimatedThemeToggler } from './ui/animated-theme-toggler'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -37,6 +38,7 @@ export default function Header() {
               </Link>
             </motion.div>
           ))}
+          <AnimatedThemeToggler />
         </nav>
 
         <motion.button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2 hover:bg-muted rounded-lg transition-colors">
