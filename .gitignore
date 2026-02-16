@@ -1,14 +1,17 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+.yarn/install-state.gz
 
 # testing
 /coverage
 
 # next.js
 /.next/
-out/
+/out/
 
 # production
 /build
@@ -21,11 +24,12 @@ out/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
 # local env files
-.env
 .env*.local
+.env
+.env.*
+!.env.example
 
 # vercel
 .vercel
@@ -33,19 +37,4 @@ pnpm-debug.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# IDE
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# pnpm
-.pnpm-store/
-
-# local env files (do not commit any file with secrets in it!)
-.env
-.env*.local
+.content-collections
