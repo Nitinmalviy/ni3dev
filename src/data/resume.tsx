@@ -1,7 +1,5 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
-import { ReactLight } from "@/components/ui/svgs/reactLight";
-import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
@@ -15,23 +13,26 @@ export const DATA = {
   url: "https://ni3dev.com",
   location: "Indore, Madhya Pradesh, India",
   locationLink: "https://www.google.com/maps/place/Indore",
+
   description:
-    "Backend Developer | Node.js, Web3 & Scalable Systems | AWS & Microservices",
+    "Full Stack Software Developer | React, Node.js & Scalable Cloud Systems",
+
   summary:
-    "Backend Developer with 1.5+ years of professional experience building scalable, high-performance web applications. Specialized in Node.js, NestJS, Express.js, MongoDB, PostgreSQL, and RESTful API architecture. Experienced in deploying production-grade systems on AWS EC2 using Nginx, PM2, Docker, and CI/CD pipelines. Currently working at Brain Inventory, contributing to enterprise-grade accounting and business platforms, while building my freelance brand ni3dev with a vision to launch ni3labs.",
+    "I am a full stack software developer building scalable web applications and enterprise-grade systems across both frontend and backend. I specialize in React, Next.js, Node.js, NestJS, Express.js, MongoDB, and PostgreSQL, with a strong focus on clean architecture and microservices. Experienced in designing RESTful APIs, building modern UI interfaces, and deploying production-ready applications on AWS using Nginx, PM2, Docker, and CI/CD pipelines. Currently contributing to enterprise platforms at Brain Inventory while building my tech brand ni3dev with a long-term vision to launch ni3labs.",
 
   avatarUrl: "/me.png",
 
   skills: [
+    { name: "React.js", icon: Nodejs },
+    { name: "Next.js", icon: Nodejs },
+    { name: "TypeScript", icon: Typescript },
     { name: "Node.js", icon: Nodejs },
     { name: "Express.js", icon: Nodejs },
     { name: "NestJS", icon: Nodejs },
-    { name: "TypeScript", icon: Typescript },
     { name: "MongoDB", icon: Postgresql },
     { name: "PostgreSQL", icon: Postgresql },
     { name: "MySQL", icon: Postgresql },
     { name: "Redis", icon: Java },
-    { name: "Kafka", icon: Java },
     { name: "Web3.js / Ethers.js", icon: Java },
     { name: "Docker", icon: Docker },
     { name: "Kubernetes", icon: Kubernetes },
@@ -86,33 +87,33 @@ export const DATA = {
       href: "https://braininventory.com",
       location: "Indore",
       title: "Software Developer",
-      logoUrl: "/braininventory.png",
+      logoUrl: "/braininventory.jpg",
       start: "Oct 2025",
       end: "Present",
       description:
-        "Developing scalable backend systems using Node.js, NestJS, Express.js, MongoDB, and PostgreSQL. Contributing to enterprise accounting software (Numetric) and other business platforms. Implementing authentication, RBAC authorization, Redis caching, and microservices architecture. Managing AWS EC2 deployments, Docker containers, and resolving production vulnerabilities.",
+        "Developing scalable full stack systems using React, Next.js, Node.js, NestJS, Express.js, MongoDB, and PostgreSQL. Contributing to enterprise accounting software (Numetric) and business platforms. Implementing authentication, RBAC authorization, Redis caching, microservices architecture, and managing AWS EC2 deployments with Docker.",
     },
     {
       company: "Infograins Software Solutions Pvt. Ltd.",
       href: "https://infograins.com",
       location: "Indore",
       title: "Software Developer",
-      logoUrl: "/infograins.png",
+      logoUrl: "/infograins.jpg",
       start: "June 2024",
       end: "Oct 2025",
       description:
-        "Designed and developed scalable RESTful APIs using Node.js and Express.js. Built blockchain-integrated platforms including cryptocurrency systems. Worked on real-time systems using WebSockets and managed production deployments on AWS EC2 using Nginx and PM2.",
+        "Built scalable full stack applications including blockchain-integrated platforms and real-time systems using WebSockets. Developed REST APIs, frontend interfaces, and handled production deployments on AWS EC2 using Nginx and PM2.",
     },
     {
       company: "MPIF Foundation",
       href: "#",
       location: "Indore",
-      title: "Trainee Backend Developer",
-      logoUrl: "/mpif.png",
+      title: "Trainee Software Developer",
+      logoUrl: "/mpif.jpg",
       start: "April 2023",
       end: "June 2024",
       description:
-        "Completed intensive backend development training focused on MERN stack. Built authentication systems, REST APIs, database schemas, and deployed live applications.",
+        "Completed intensive MERN stack training. Built authentication systems, REST APIs, frontend interfaces, database schemas, and deployed live applications.",
     },
   ],
 
@@ -121,7 +122,7 @@ export const DATA = {
       school: "RGPV, Bhopal",
       href: "#",
       degree: "Master of Computer Applications (MCA)",
-      logoUrl: "/rgpv.png",
+      logoUrl: "/rgpv.jpg",
       start: "2024",
       end: "2026 (Pursuing)",
     },
@@ -142,16 +143,9 @@ export const DATA = {
       dates: "2025 - Present",
       active: true,
       description:
-        "Enterprise-grade accounting and financial management software built at Brain Inventory. Responsible for backend API development, financial data handling, RBAC authorization, and performance optimization.",
-      technologies: ["Node.js", "NestJS", "PostgreSQL", "Redis", "AWS EC2", "Docker"],
-      links: [
-        {
-          type: "Website",
-          href: "https://numetric.co/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
+        "Enterprise-grade accounting and financial management software. Responsible for backend APIs, financial data handling, RBAC authorization, and performance optimization.",
+      technologies: ["React", "Node.js", "NestJS", "PostgreSQL", "Redis", "AWS EC2"],
+      image: "/numetric.png",
       video: "",
     },
     {
@@ -160,16 +154,9 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Contributed to backend development for Hanat platform at Brain Inventory. Implemented secure APIs and optimized server-side business logic.",
-      technologies: ["Node.js", "Express.js", "MongoDB"],
-      links: [
-        {
-          type: "Website",
-          href: "https://hanat.co/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
+        "Contributed to full stack development for Hanat platform with secure APIs and optimized server-side business logic.",
+      technologies: ["React", "Node.js", "Express.js", "MongoDB"],
+      image: "/hanat.png",
       video: "",
     },
     {
@@ -178,16 +165,9 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Developed and deployed corporate business website with backend integration and production deployment setup.",
-      technologies: ["Node.js", "Next.js", "PostgreSQL", "AWS EC2"],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.4brainstech.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
+        "Corporate business website with modern UI and backend integration, deployed on AWS infrastructure.",
+      technologies: ["Next.js", "Node.js", "PostgreSQL", "AWS EC2"],
+      image: "/4brainstech.png",
       video: "",
     },
     {
@@ -196,16 +176,9 @@ export const DATA = {
       dates: "2024",
       active: true,
       description:
-        "Blockchain-powered flight tracking platform developed at Infograins with real-time updates using WebSockets and AWS deployment.",
-      technologies: ["Node.js", "WebSockets", "MongoDB", "AWS EC2"],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.gotravelx.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
+        "Blockchain-powered flight tracking platform with real-time updates using WebSockets and AWS deployment.",
+      technologies: ["React", "Node.js", "WebSockets", "MongoDB"],
+      image: "/gotravelx.png",
       video: "",
     },
     {
@@ -214,55 +187,10 @@ export const DATA = {
       dates: "2024",
       active: true,
       description:
-        "Secure cryptocurrency trading platform with Web3 integration. Developed backend architecture, wallet integrations, and smart contract interactions.",
-      technologies: [
-        "Node.js",
-        "MongoDB",
-        "Web3.js",
-        "Ethers.js"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://pbm-coin.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/yourusername/pbmc-coin",
-          icon: <Icons.github className="size-3" />,
-        }
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Start Naukri",
-      href: "https://startnaukri.com",
-      dates: "2024",
-      active: true,
-      description:
-        "Job portal platform with HR & Sub-HR roles and interview scheduling system. Designed and developed scalable RESTful backend APIs.",
-      technologies: [
-        "Node.js",
-        "Express.js",
-        "MySQL"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://startnaukri.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/yourusername/start-naukri",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
+        "Secure cryptocurrency trading platform with Web3 integration and smart contract interactions.",
+      technologies: ["React", "Node.js", "MongoDB", "Web3.js"],
+      image: "/pbmc.png",
       video: "",
     },
   ],
-
 } as const;
