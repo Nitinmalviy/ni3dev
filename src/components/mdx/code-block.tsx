@@ -34,7 +34,7 @@ export function CodeBlock({ children, ...props }: CodeBlockProps) {
     const nextClassName = codeEl.className || "";
 
     void codeToHtml(codeText, {
-      lang: lang as any,
+      lang,
       themes: {
         light: "github-light",
         dark: "github-dark",
